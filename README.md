@@ -135,6 +135,9 @@ Improvements that can be done:
 4. HR dashboard to see pending leaves + priorities.
 5. Half Day leaves can be implemented too.
 
+Architecture diagram:
+![image](https://github.com/whoa12/Leave-Management/blob/main/Screenshot%20(125).png?raw=true)
+
 
 
 
