@@ -11,17 +11,27 @@
  CREATE DATABASE employee_db;
 
  - Update your database username & password in
+   
   src/main/resources/application.yml:
+  
   spring:
+  
     datasource:
+    
       url: jdbc:mysql://localhost:3306/employee_db
+      
       username: your_username
+      
       password: your_password
 
     jpa:
+    
       hibernate:
+      
         ddl-auto: update
+        
       show-sql: true
+      
  - Please make sure MYSQL server is running before proceeding to the next steps.
 
 
@@ -29,8 +39,11 @@
  Steps to Run
 
 ### 1. Clone the repository
+
 ``bash
+
 git clone https://github.com/whoa12/Leave-Management.git
+
 cd Leave-Management
 
 ### 2.   Update your database username & password in
